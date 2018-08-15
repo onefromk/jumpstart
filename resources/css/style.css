@@ -1,0 +1,126 @@
+/*general*/
+html {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #399bd1;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*navigation bar*/
+.navbar-default .navbar-nav > .active > a {
+    color: #399bd1;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #399bd1;
+}
+
+.navbar-default .navbar-nav li {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/*main section*/
+.jumbotron.jumbotron-bike {
+    background-image: url(../images/jumbotron-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.jumbotron-bike h1 {
+    font-family: Monoton;
+    tex-align: center;
+    font-size: 7.1rem;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.jumbotron.jumbotron-bike p {
+    width: 51.3rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.jumbotron.jumbotron-bike .btn,
+ footer .btn {
+    width: 11.4rem;
+    padding: 1.3rem;
+    margin-top: 2.8rem;
+    background-color: #399bd1;
+
+}
+
+.jumbotron.jumbotron-bike > .btn.btn-primary.btn-large > a:hover {
+    color: #399bd1;
+}
+
+/*add transition for hovering*/
+.btn-primary {
+    /*inactive*/
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/*featured project*/
+.featured-project h2 {
+    margin-bottom: 20px;
+}
+
+.featured-project ul li {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.active h3 {
+    color: #399bd1;
+}
+
+footer {
+    background-color: #f3f3f3;
+}
+
+footer h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    width: 42rem;
+    margin-top: 1.4rem;
+}
+
+footer .btn {
+    margin-bottom: 5.2rem;
+}
