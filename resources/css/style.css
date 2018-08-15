@@ -124,3 +124,16 @@ footer p {
 footer .btn {
     margin-bottom: 5.2rem;
 }
+
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    nav img {
+        display: none;
+        }
+
+    .jumbotron.jumbotron-bike h1 {
+        font-size: 5.7rem;
+}
+}
+
