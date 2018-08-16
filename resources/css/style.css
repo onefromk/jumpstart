@@ -63,7 +63,28 @@ img {
     background-size: cover;
 }
 
-.jumbotron.jumbotron-bike h1 {
+.jumbotron.jumbotron-beer {
+    background-image: url(../images/jumbotron-beer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.jumbotron-duffel {
+    background-image: url(../images/jumbotron-duffel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.jumbotron-flowers {
+    background-image: url(../images/jumbotron-flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron.jumbotron-bike h1,
+.jumbotron.jumbotron-beer h1,
+.jumbotron.jumbotron-duffel h1,
+.jumbotron.jumbotron-flowers h1 {
     font-family: Monoton;
     tex-align: center;
     font-size: 7.1rem;
@@ -75,7 +96,10 @@ img {
         1px 1px 0 #000;
 }
 
-.jumbotron.jumbotron-bike p {
+.jumbotron.jumbotron-bike p,
+.jumbotron.jumbotron-beer p,
+.jumbotron.jumbotron-duffel p,
+.jumbotron.jumbotron-flowers p {
     color: white;
     text-shadow: 1px 1px 2px black;
     text-align: center;
@@ -84,6 +108,9 @@ img {
 }
 
 .jumbotron.jumbotron-bike .btn,
+.jumbotron.jumbotron-beer .btn,
+.jumbotron.jumbotron-duffel .btn,
+.jumbotron.jumbotron-flowers .btn,
  footer .btn {
     width: 11.4rem;
     padding: 1.3rem;
@@ -133,7 +160,7 @@ footer {
 footer strong {
     font-size: 2.5rem;
     font-weight: bold;
-    padding-bottom: 1.4rem;
+    margin-bottom: 1.4rem;
 }
 
 footer p {
