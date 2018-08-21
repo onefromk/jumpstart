@@ -10,7 +10,7 @@ $(document).ready(function(){
       pauseOnHover: false
   });
 
-  var previousScroll = 0;
+var previousScroll = 0;
 
   $(previousScroll).scroll(function() {
       var currentScroll = $(this).scrollTop();
@@ -23,5 +23,4 @@ $(document).ready(function(){
         $('.navbar').animate({top: 0px}, 150);
 }
     previousScroll = currentScroll;
-});
-});
+})
