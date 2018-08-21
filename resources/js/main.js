@@ -10,17 +10,19 @@ $(document).ready(function(){
       pauseOnHover: false
   });
 
-var previousScroll = 0;
+   var previousScroll = 0;
 
-  $(previousScroll).scroll(function() {
+  $(window).scroll(function() {
       var currentScroll = $(this).scrollTop();
       if (currentScroll - previousScroll > 50) {
           var NavBarHeight = $('.navbar').css('height');
+          $('.navbar').animate({top: '-' + NavBarHeight}, 150);
+          previousScroll = currentScroll;
       }
-      $('.navbar').animate({top: '-' + $NavBarHeight}, 150);
-      previousScroll = currentScroll;
-      if (currentScroll - previousScroll < 50) {
-        $('.navbar').animate({top: 0px}, 150);
+
+      if (previousScroll - currentScroll > 50) {
+        $('.navbar').animate({top: 0}, 150);
+        previousScroll = currentScroll;
 }
-    previousScroll = currentScroll;
+});
 })
