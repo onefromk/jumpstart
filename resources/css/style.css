@@ -16,7 +16,7 @@ h3 {
     font-weight: bold;
 }
 
-.center-text {
+.carousel .center-text {
     text-align: center;
     padding-top: 11.85rem;
     padding-bottom: 11.85rem;
@@ -45,6 +45,7 @@ img {
 /*navigation bar*/
 .navbar-default .navbar-nav > .active > a {
     color: #399bd1;
+    background-color: transparent !important;
 }
 
 .navbar-default .navbar-nav > .active > a:hover {
@@ -111,7 +112,7 @@ img {
 .jumbotron.jumbotron-beer .btn,
 .jumbotron.jumbotron-duffel .btn,
 .jumbotron.jumbotron-flowers .btn,
- footer .btn {
+ footer.jumbotron .btn {
     width: 11.4rem;
     padding: 1.3rem;
     margin-top: 2.8rem;
@@ -149,6 +150,10 @@ footer > .btn.btn-primary.btn-large > a:hover
     color: rgba(0, 0, 0, 0.7);
 }
 
+.container.projects {
+    margin-bottom: 5.85rem;
+}
+
 .active h3 {
     color: #399bd1;
 }
@@ -168,10 +173,15 @@ footer p {
     margin: auto;
 }
 
-footer .btn {
-    margin-bottom: 5.2rem;
+footer.jumbotron .container-fluid.center-text {
+    padding-bottom: 5.2rem;
+    padding-top: 5.2rem;
+    text-align: center;
 }
 
+footer.jumbotron p {
+    font-size: 15px;
+}
 
 /*mobile*/
 @media only screen and (max-width: 480px) {
@@ -179,7 +189,7 @@ footer .btn {
         display: none;
         }
 
-    .jumbotron.jumbotron-bike h1 {
+.jumbotron.jumbotron-bike h1 {
         font-size: 5.7rem;
 }
 }
